@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+  <title>Twice</title>
+</head>
+<body>
+
+  <br>
+
+  <div>
+    <h1>Показать</h1>
+    <button onclick="getajax()" href="#">Get-запрос</button>
+  </div>
+  
+  <br>
+  <br>
+  <br>
+
+  <div>
+    <h1>Добавить</h1>
+    <div>
+      <br>
+      <input type="text" placeholder="Введите id" id="idPOST" >
+    </div>
+    <div>
+      <br>
+      <input type="text" placeholder="Введите имя" id="namePOST" >
+    </div>
+    <div>
+      <br>
+      <input type="text" placeholder="Введите URL изображения" id="imagePOST" >
+    </div>
+    <div>
+      <br>
+      <button onclick="postajax()" href="#">Post-запрос</button>
+    </div>
+  </div>
+
+  <div id="Here">
+
+  </div>
+
+       
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="script.js"></script>
+</html>

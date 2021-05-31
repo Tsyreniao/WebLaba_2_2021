@@ -1,0 +1,18 @@
+{
+  "name": "twiceapi",
+  "version": "1.0.0",
+  "description": "Twice API",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "Tsyren",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mysql": "github:mysqljs/mysql",
+    "request": "^2.88.2"
+  }
+}
